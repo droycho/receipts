@@ -3,6 +3,16 @@
 }
 
 ul {
+    list-style: none;
+}
+#name {
   font-weight: bold;
-  list-style: none;
+}
+
+.address {
+  font-weight: bold;
+}
+
+li {
+  font-style: italic;
 }
