@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Order Form</title>
+    <h1>Order Form</h1>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="orderform">Enter Your Information
+      </h2>
+
+        <form id="order">
+          <div class="form-group">
+            <label for="firstname">First Name:</label>
+            <input id="firstname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="street">Street:</label>
+            <input id="street" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="city">City:</label>
+            <input id="city" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="state">State:</label>
+            <input id="state" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="zipcode">Zipcode:</label>
+            <input id="zipcode" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Submit your order!</button>
+        </form>
+
+        <div id="receipt">
+          <h3>Thank you for your order</h3>
+          <p>
+            Dear <span class="firstname"></span> <span class="lastname"></span>,</br> Thank your for your order of frozen chicken wings. We hope that you enjoy the product. If you are not satisified, call someone else.</br>See below for your order confirmation page.</br>Thanks!
+          </p>
+          <h4>Shipping Details:</h4>
+          <ul>
+            <li>Name: <span class="firstname"></span> <span class="lastname"></span></li>
+            <li>Address: </br><span class="street"></span></br><span class="city"></span></br><span class="state"></span></br><span class="zipcode"></span></li>
+          </ul>
+        </div>
+    </div>
+  </body>
+</html>
